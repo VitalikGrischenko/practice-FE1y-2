@@ -1,0 +1,37 @@
+body{
+    font-family: 'Playfair Display';
+  font-weight: 400;
+}
+ul{
+list-style: none;
+}
+a{
+text-decoration: none;
+}
+.card-name{
+    font-family: 'Ubuntu';
+    font-weight: 300;
+font-size: 14px;
+line-height: 1,14;
+color: #B4AD9E;
+}
+.link{
+font-size: 14px;
+Line-height: 19px;
+color:
+#7D7D7D
+}
+.link:hover{
+color:
+#03A9F4;
+}
+.card-title{
+    Font-size: 30px;
+    Line-height: 40px;
+ color: #626262
+}
+.card-deskription{
+    Font-size: 14px;
+    Line-height: 19px;
+color: #626262;
+}
