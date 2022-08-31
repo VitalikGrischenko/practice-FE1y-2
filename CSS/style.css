@@ -1,37 +1,54 @@
-body{
-    font-family: 'Playfair Display';
+body {
+  font-family: 'Playfair Display';
   font-weight: 400;
 }
-ul{
-list-style: none;
+
+ul {
+  list-style: none;
 }
-a{
-text-decoration: none;
+
+a {
+  text-decoration: none;
 }
-.card-name{
-    font-family: 'Ubuntu';
-    font-weight: 300;
-font-size: 14px;
-line-height: 1,14;
-color: #B4AD9E;
+
+/* Хедер */
+
+.nav-link {
+  font-size: 14px;
+  line-height: 1.36;
+  color: #7d7d7d;
 }
-.link{
-font-size: 14px;
-Line-height: 19px;
-color:
-#7D7D7D
+
+.nav-link:hover {
+  color: #03a9f4;
 }
-.link:hover{
-color:
-#03A9F4;
+
+/* Мейн */
+
+.card-name {
+  font-family: 'Ubuntu';
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.14;
+  color: #b4ad9e;
 }
-.card-title{
-    Font-size: 30px;
-    Line-height: 40px;
- color: #626262
+
+.card-title {
+  font-size: 30px;
+  line-height: 1.33;
+  color: #626262;
 }
-.card-deskription{
-    Font-size: 14px;
-    Line-height: 19px;
-color: #626262;
+
+.card-description {
+  font-size: 14px;
+  line-height: 1.36;
+  color: #626262;
+}
+
+button {
+  padding: 20px 49px;
+  line-height: 1.36;
+  color: #626262;
+  border: 1px solid #626262;
+  background-color: #fff;
 }
