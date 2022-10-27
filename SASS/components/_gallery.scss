@@ -1,0 +1,52 @@
+
+main {
+    width: 906px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 66px;
+  }
+  
+  .main-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .main-list-item {
+    width: 420px;
+    margin-bottom: 130px;
+  }
+  .main-list-item:nth-child(2n) {
+    margin-left: 65px;
+  }
+  
+  .card-name {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.14;
+    color: $seconter-recolor;
+    margin-top: 32px;
+    margin-bottom: 32px;
+  }
+  
+  .card-title {
+    font-size: 30px;
+    line-height: 1.33;
+  }
+  
+  .card-description {
+    font-size: 14px;
+    line-height: 1.36;
+    margin-top: 40px;
+  }
+  
+  .card-button {
+    display: block;
+    width: 165px;
+    height: 60px;
+    font-size: 14px;
+    line-height: 1.36;
+    margin-left: auto;
+    margin-right: auto;
+  }

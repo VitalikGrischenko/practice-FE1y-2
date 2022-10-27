@@ -1,0 +1,22 @@
+header {
+    padding-top: 71px;
+    padding-bottom: 92px;
+  }
+  .nav-list {
+    display: flex;
+    justify-content: center;
+
+}
+.nav-items:first-child {
+    margin-left: 0px;
+  }
+  
+  .nav-link:hover {
+    color: $hover-color
+  }
+  
+  .nav-list:first-child {
+    margin-left: 0;
+  }
+
+  
